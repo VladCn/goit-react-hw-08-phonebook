@@ -1,0 +1,6 @@
+export * from './ContactsPage'
+export * from './LoginPage'
+export * from './NotAuthPage'
+export * from './EditPage'
+export * from './RegisterPage'
+export * from './HomePage'
