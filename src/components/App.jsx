@@ -39,7 +39,7 @@ export const App = () => {
             />
             <Route
               path="register"
-              element={<PublicRoute component={<RegisterPage />} restricted />}
+              element={<PublicRoute component={<RegisterPage />} restricted redirectTo={'/contacts'} />}
             />
             <Route
               path="login"
@@ -51,7 +51,7 @@ export const App = () => {
                 />
               }
             />
-            <Route path="*" element={<Navigate to="/" />} />
+            <Route path="*" element={<Navigate to="/contacts" />} />
           </Route>
         </Routes>
       )}

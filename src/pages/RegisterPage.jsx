@@ -17,7 +17,7 @@ export const RegisterPage = () => {
       }}
       validate={values => {
         const errors = {};
-        console.log(errors);
+
         if (!values.name) {
           errors.name = 'Required';
         }
